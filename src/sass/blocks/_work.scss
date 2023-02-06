@@ -1,0 +1,31 @@
+.work {
+    padding: 50px 5px 55px 5px;
+    background-color: #F2F2F2;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+    &__item {
+        max-width: 360px;
+        &-img {
+            width: 100%;
+        }
+        &-head {
+            padding-top: 22px;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: $main-color;
+        }
+        &-body {
+            padding-top: 6px;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            color:#3A3A3A;
+        }
+    }
+}

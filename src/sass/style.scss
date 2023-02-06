@@ -1,0 +1,31 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@import 'base/variables';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/buttons';
+@import 'blocks/title';
+@import 'blocks/header';
+@import 'blocks/benefits';
+@import 'blocks/work';
+@import 'blocks/agent';
+@import 'blocks/price';
+@import 'blocks/managers';
+@import 'blocks/scheme';
+@import 'blocks/slider';
+@import 'blocks/consultation';
+@import 'blocks/maps';
+@import 'blocks/footer';
+
+
