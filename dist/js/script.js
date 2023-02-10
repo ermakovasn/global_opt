@@ -29,6 +29,17 @@ $(document).ready(function(){
           }
         ]
       });
+      function toggleSlide(item) {
+        $(item).each(function(i) {
+          $(this).on('click', function(e) {
+            e.preventDefault();
+            $('.price__first').eq(i).toggleClass('price__first_active');
+            $('.price__second').eq(i).toggleClass('price__second_active');
+          })
+        });
+      };
+      toggleSlide('.price__second_link');
+      toggleSlide('.price__item_btn');
   });
           
 
